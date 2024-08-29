@@ -1,0 +1,57 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background: url('./images//gettyimages-185258354-612x612.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-top: 100px; /* To center the container vertically */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+input[type="file"],
+input[type="text"],
+button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    width: 250px; /* Adjust width as needed */
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#output {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #e74c3c;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}

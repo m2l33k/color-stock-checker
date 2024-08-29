@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Stock Checker</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <h1>Color Stock Checker</h1>
+
+    <input type="file" id="file-input" accept=".xlsx" />
+    <br>
+    <label for="color-input">Enter HTML Color Code:</label>
+    <input type="text" id="color-input" placeholder="#FF5733" />
+    <br>
+    <button onclick="checkColor()">Check Color</button>
+
+    <div id="output"></div>
+
+    <div id="credit">Credit by: Chaima Belazreg</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
