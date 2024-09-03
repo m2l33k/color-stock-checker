@@ -1,20 +1,26 @@
 body {
-    font-family: 'Times New Roman', serif;
-    background: url('./images//gettyimages-185258354-612x612.jpg') no-repeat center center fixed;
+    font-family: 'Lato', serif;
+    background: url('./images/sewing-thread-886x550.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #333;
     text-align: center;
     padding: 0;
     margin: 0;
 }
-
+.logo {
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    width: 350px; 
+    height: auto; 
+}
 .container {
-    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    background: rgba(255, 255, 255, 0.9); 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     display: inline-block;
-    margin-top: 100px; /* To center the container vertically */
+    margin-top: 100px; 
 }
 
 h1 {
@@ -34,6 +40,19 @@ button {
     width: 250px; /* Adjust width as needed */
 }
 
+#instructions {
+    text-align: center; 
+    padding: 20px;
+    /* border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+    /* border-radius: 10px; /* Optional: Add rounded corners */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    /*background-color: #f9f9f9; /* Optional: Add a background color */
+    display: flex;
+    top: 50%; /* Position the top of the div at 50% of the viewport height */
+    left: 50%; 
+    align-items: center;
+    justify-content: center;
+  }
 button {
     background-color: #3498db;
     color: white;
@@ -47,9 +66,21 @@ button:hover {
 #output {
     font-weight: bold;
     margin-top: 20px;
-    color: #e74c3c;
+    color: green;
 }
-
+#credit-container {
+    position: fixed; /* Positions the container relative to the viewport */
+    bottom: 10px; /* Adjusts the distance from the bottom */
+    left: 50%; /* Positions the container horizontally at the center */
+    transform: translateX(-50%); /* Centers the container by shifting it left by 50% of its width */
+    text-align: center; /* Centers the text within the container */
+  }
+  
+  #credit {
+    margin: 5px 0; /* Adds some spacing between the lines */
+    font-size: 25px; /* Adjust the font size as needed */
+    color : black ;
+  }
 p {
     margin-top: 20px;
     font-size: 0.9em;

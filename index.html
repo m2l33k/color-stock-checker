@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Stock Checker</title>
+    <title>Startex Group</title>
     <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="icon" href="./assets/images/Sartex-group-big-768x512-removebg-preview.png" type="image/png">
 </head>
 <body>
-    <h1>Color Stock Checker</h1>
-
+    <h1>Startex - Verification de stockage </h1>
+    <div id="instructions">
     <input type="file" id="file-input" accept=".xlsx" />
     <br>
     <label for="color-input">Enter HTML Color Code:</label>
@@ -17,9 +18,12 @@
     <button onclick="checkColor()">Check Color</button>
 
     <div id="output"></div>
-
-    <div id="credit">Credit by: Chaima Belazreg</div>
-
+    </div>
+    <div id="credit-container">
+        <div id="credit">Responsable :</div>
+        <div id="credit">Crée Par : Chaima Belazreg</div>
+      </div>
+    <img src="./assets/images/Sartex-group-big-768x512-removebg-preview.png" alt="logo" class="logo"> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
     <script src="./assets/script.js"></script>
 </body>
